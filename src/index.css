@@ -1,11 +1,29 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap'); */
+
+/* @font-face {
+  font-family: 'oswaldextralight';
+  src: url('./Resources/Fonts/Oswald/oswald-extralight-webfont.woff2') format('woff2'),
+       url('./Resources/Fonts/Oswald/oswald-extralight-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+} */
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  background-image: url('./Images/city-wallpaper.jpg');
+  background-size: cover;
+ 
 }
+
+.Oswald{
+  font-family: 'Oswald', sans-serif;
+}
+
+/* .bold {
+  font-weight: bold;
+} */
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
